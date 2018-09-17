@@ -9,7 +9,8 @@
     <con:settings/>
     <con:config xsi:type="con:ManualTestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <con:description>hoi vanuit readyapi</con:description>
-      <con:expectedResult>hoi vanuit externe git tool!!</con:expectedResult>
+      <con:expectedResult>hoi vanuit externe git tool!!
+Doe eens normaal man</con:expectedResult>
     </con:config>
   </con:testStep>
   <con:properties/>

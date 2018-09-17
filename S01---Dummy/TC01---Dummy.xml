@@ -96,6 +96,7 @@
       </con:entry>
     </con:config>
   </con:testStep>
+<<<<<<< HEAD
   <con:testStep type="assertionteststep" name="A is gelijk aan B5" id="ad89fb8a-4fea-4209-9b9f-6e25a6409d55">
     <con:settings/>
     <con:config xsi:type="con:AssertionTestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
@@ -105,6 +106,17 @@
         <con:sourceId>ff32dd02-d640-4c98-b8a6-10c9c49ae5ed</con:sourceId>
         <con:propertyName>a</con:propertyName>
         <con:assertion type="Simple Equals" name="Equals" id="2eebc1c9-38f6-4e06-913e-0fa026160dd1">
+=======
+  <con:testStep type="assertionteststep" name="A is gelijk aan B4" id="3f987d4d-bf73-4182-a985-dca237a2085d">
+    <con:settings/>
+    <con:config xsi:type="con:AssertionTestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:entry>
+        <con:id>af7e77a3-14f2-40b7-98b2-46ffdf399708</con:id>
+        <con:isGroup>false</con:isGroup>
+        <con:sourceId>ff32dd02-d640-4c98-b8a6-10c9c49ae5ed</con:sourceId>
+        <con:propertyName>a</con:propertyName>
+        <con:assertion type="Simple Equals" name="Equals" id="0b5d5be5-29ac-4b8f-88e7-087d520488ab">
+>>>>>>> branch 'master' of https://github.com/MBERoxit/testreadyapi
           <con:configuration>
             <patternObjectId>ff32dd02-d640-4c98-b8a6-10c9c49ae5ed</patternObjectId>
             <patternProperty>b</patternProperty>

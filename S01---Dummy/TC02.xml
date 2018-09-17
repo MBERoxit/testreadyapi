@@ -6,7 +6,9 @@
   <con:savedRecentRuns>1</con:savedRecentRuns>
   <con:testStep type="manualTestStep" name="Manual" id="1273f28f-d614-4418-961e-5995c0cb45be">
     <con:settings/>
-    <con:config xsi:type="con:ManualTestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+    <con:config xsi:type="con:ManualTestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:expectedResult>hoi vanuit externe git tool</con:expectedResult>
+    </con:config>
   </con:testStep>
   <con:properties/>
   <con:reportParameters/>

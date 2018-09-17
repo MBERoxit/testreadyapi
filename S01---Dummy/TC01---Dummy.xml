@@ -96,6 +96,24 @@
       </con:entry>
     </con:config>
   </con:testStep>
+  <con:testStep type="assertionteststep" name="A is gelijk aan B5" id="ad89fb8a-4fea-4209-9b9f-6e25a6409d55">
+    <con:settings/>
+    <con:config xsi:type="con:AssertionTestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:entry>
+        <con:id>2c9615c6-c3e0-4ead-819d-a1523d114150</con:id>
+        <con:isGroup>false</con:isGroup>
+        <con:sourceId>ff32dd02-d640-4c98-b8a6-10c9c49ae5ed</con:sourceId>
+        <con:propertyName>a</con:propertyName>
+        <con:assertion type="Simple Equals" name="Equals" id="2eebc1c9-38f6-4e06-913e-0fa026160dd1">
+          <con:configuration>
+            <patternObjectId>ff32dd02-d640-4c98-b8a6-10c9c49ae5ed</patternObjectId>
+            <patternProperty>b</patternProperty>
+            <caseSensitive>false</caseSensitive>
+          </con:configuration>
+        </con:assertion>
+      </con:entry>
+    </con:config>
+  </con:testStep>
   <con:properties/>
   <con:reportParameters/>
   <con:breakPoints>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="71aecdc5-4e8a-4795-abb8-88fac0d25cfd" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="TC01 - Dummy" searchProperties="true" timeout="0" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="71aecdc5-4e8a-4795-abb8-88fac0d25cfdfileName">TC01---Dummy</con:setting>
+  </con:settings>
+  <con:savedRecentRuns>1</con:savedRecentRuns>
+  <con:testStep type="manualTestStep" name="Testdoel" id="664c2665-bd3a-483e-9881-1cad99639f5f" disabled="true">
+    <con:description>Dit is een dummy, de pipeline wil vulling zien</con:description>
+    <con:settings/>
+    <con:config xsi:type="con:ManualTestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+  </con:testStep>
+  <con:testStep type="properties" name="Properties" id="ff32dd02-d640-4c98-b8a6-10c9c49ae5ed">
+    <con:settings/>
+    <con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:properties>
+        <con:property>
+          <con:name>a</con:name>
+          <con:value>123</con:value>
+        </con:property>
+        <con:property>
+          <con:name>b</con:name>
+          <con:value>123</con:value>
+        </con:property>
+      </con:properties>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="assertionteststep" name="A is gelijk aan B" id="203a3c48-6d07-4bee-a658-207a87fc719b">
+    <con:settings/>
+    <con:config xsi:type="con:AssertionTestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:entry>
+        <con:id>7179a5c8-23f5-4a97-87b0-6997848ef198</con:id>
+        <con:isGroup>false</con:isGroup>
+        <con:sourceId>ff32dd02-d640-4c98-b8a6-10c9c49ae5ed</con:sourceId>
+        <con:propertyName>a</con:propertyName>
+        <con:assertion type="Simple Equals" name="Equals" id="8415a9bc-d505-4ca7-ab41-6c870d7b23ba">
+          <con:configuration>
+            <patternObjectId>ff32dd02-d640-4c98-b8a6-10c9c49ae5ed</patternObjectId>
+            <patternProperty>b</patternProperty>
+            <caseSensitive>false</caseSensitive>
+          </con:configuration>
+        </con:assertion>
+      </con:entry>
+    </con:config>
+  </con:testStep>
+  <con:properties/>
+  <con:reportParameters/>
+  <con:breakPoints>
+    <con:testStepId>664c2665-bd3a-483e-9881-1cad99639f5f</con:testStepId>
+    <con:status>NONE</con:status>
+    <con:properties/>
+  </con:breakPoints>
+</con:testCase>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:soapui-project id="e0dc1cae-21c9-4ea8-a7a9-01729cc06d7b" created="2.2.0" activeEnvironment="Default environment" name="SMAK-dummy-auto" resourceRoot="" updated="2.2.0 20171026-0943" encryptionMode="Not encrypted" compositeProjectFormat="1.3" xmlns:con="http://eviware.com/soapui/config">
+<con:soapui-project id="e0dc1cae-21c9-4ea8-a7a9-01729cc06d7b" created="2.2.0" activeEnvironment="Default environment" name="SMAK-dummy-auto" resourceRoot="" updated="2.5.0" encryptionMode="Not encrypted" compositeProjectFormat="1.3" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
-    <con:setting id="e0dc1cae-21c9-4ea8-a7a9-01729cc06d7bfileName">SMAK-dummy-auto1</con:setting>
+    <con:setting id="e0dc1cae-21c9-4ea8-a7a9-01729cc06d7bfileName">client2</con:setting>
   </con:settings>
   <con:vcsConfiguration>
     <con:vcsName>Git</con:vcsName>
-    <con:repositoryIdentifier>https://github.com/MBERoxit/testreadyapi.git</con:repositoryIdentifier>
+    <con:repositoryIdentifier>https://github.com/MBERoxit/testreadyapi</con:repositoryIdentifier>
   </con:vcsConfiguration>
   <con:savedRecentRuns>1</con:savedRecentRuns>
   <con:requirements/>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="ef063ede-bd71-4ae8-9d0b-a2410ede3391" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="TC02" searchProperties="true" timeout="0" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="ef063ede-bd71-4ae8-9d0b-a2410ede3391fileName">TC02</con:setting>
+  </con:settings>
+  <con:savedRecentRuns>1</con:savedRecentRuns>
+  <con:testStep type="manualTestStep" name="Manual" id="1273f28f-d614-4418-961e-5995c0cb45be">
+    <con:settings/>
+    <con:config xsi:type="con:ManualTestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+  </con:testStep>
+  <con:properties/>
+  <con:reportParameters/>
+</con:testCase>
